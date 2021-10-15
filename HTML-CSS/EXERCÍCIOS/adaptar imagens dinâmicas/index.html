@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIDIAS EM HTML5</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Inserindo imagens Dinâmicas</h1>
+    <p>Para usar imagens de maneira a poder parametrizar sua apresentação na tela usaremos uma tag inicial &lt;picture&gt;. Imagens podem ter tamanhos variados e mesmo assim aplicarmos a elas parâmetros de otimização. <br>Então dentro da tag pitcure vamos adicionar uma tag de parâmetro que é:
+    &lt;source&gt;, com seu respectivos atributos: 
+</p>
+<ul>
+<li>media - Isso irá indicar o valor a ser exibido no navegador</li>
+<li>scrset - Esste será o nome do arquivo da imagem</li>
+<li>type - Essa será a indicação do media type</li>
+</ul>
+<p>Deeeepois, e ainda dentro da tag &lt;picture&gt; é que vamos gerar a tag de carregamento da imagem, como já conhecíamos &lt;img&gt;, com seus conhecidos parâmetros: '<abbr title="source">src</abbr>' e '<abbr title="Alternative text">alt</abbr>'. <br> Exemplos abaixo de imagens consolidadas.     </p>
+<picture>
+    <source media="(max-width: 750px)" srcset="IMG/mamae-p.png" type="image/jpeg">
+    <source media="(max-width: 1050px)" srcset="IMG/mamae-m.png" type="image/jpeg">
+  
+    <img src="IMG/mamae-g.png" alt="foto do meu amor">
+
+</picture>
+<h1>INSERÇÃO DE AUDIO</h1>
+<P>A tag &lt;audio&gt;, vai funcionar como a anterio &lt;picture&gt;,  ou seja, permite aplicação de atributos: <br> 
+    <ul>
+        PRELOAD:
+     
+      <ul>
+    <li>metadata - carrega apenas informação do audio</li>
+    <li>none - nao carrega nada até que se clik em play</li>
+    <li>auto - já carrega e toca o som direto</li>
+
+    </ul>
+     <li>CONTROLS - se for inserido dentro da tag irá habilitar o player na tela</li>
+     <li>AUTOPLAY - se for inserido na tag irá carregar e reproduzir audio assim que a página for carregada</li>
+     <li>LOOP - se for inserido na tag irá loopar sempre o audio na pagina </li>
+    </ul> 
+<strong>Bora lá então rolar um som na caixa!</strong>
+</P>
+<audio preload="metadata" controls >
+<source src="midia/audio/A-HA- TAKE ON ME.mp3" type="audio/mp3">
+</audio>
+<h1>AGORA VAMOS COLOCAR UMA PORRA DE VÍDEO!</h1>
+<p>Parágrafo, papai! Pois agora vamos enfiar um tal de vídeo aki!</p>
+<h2>Videos com hospedagem local</h2>
+<p>Este video está dentro de nosso servidor em nossa página</p>
+ <video src="midia/videos/haddaway.mp4" controls poster="midia/videos/images.jpg"></video>
+ <center>
+     <h1>DESAFIO 009</h1>
+ </center>
+ <p><strong>Clique no link abaixo para ir parar na página do desafio 009 do curso em vídeo do Guaraná! </strong><br>
+<ul>
+    <li><a href="desafio 009/desafio009.html">DESAFIO 009</a></li>
+</ul> 
+ </p>
+
+</body>
+</html>

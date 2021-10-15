@@ -1,0 +1,23 @@
+@charset "UTF-8"
+@font-face {
+    font-family: droid;
+    src: url(fonts/BROADW.TTF) format(opentype);
+}
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: yellowgreen;
+}
+h1#a  {
+    text-align: center;
+    background-color: tomato;
+    color: teal;
+}
+h2 {
+    color: yellowgreen;
+}
+.babagaba {
+    color: slateblue;
+}

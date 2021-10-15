@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+    @font-face {
+            font-family: 'abertura';
+            src: url('fontes/bebas.otf') format('opentype');
+                }
+    @font-face {
+            font-family: 'droid';
+            src: url('fontes/idroid.otf') format('opentype');
+    }
+
+body {
+        background-color: #c0c0c0;
+        margin: 0%;
+}
+
+header {
+        background-image:linear-gradient(to top, #06361b, #1f6e43, #1b9e56);
+        padding-top: 3px;
+        height: 262px;
+        margin-left: -15px;
+        margin-top: -10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
+        }
+
+
+article {
+        background-color: white;
+        margin-left: 170px;
+        margin-right: 170px;
+        margin-top: -23px;
+        border-radius: 0px 0px 12px 12px;
+        }
+main { 
+        
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+}
+ul {
+                list-style-image: url('checker2.png');
+        }
+        
+        
+        
+h1 {
+                font-family: 'cusujo', Arial, Helvetica, sans-serif;
+                font-size: 28px;
+                color: #063D1E;
+                padding-left: 18px;
+                
+        }
+div {
+                background-color: #063d1e;
+                margin: 1px -25px 0px -25px;
+                padding: 16px 1px 1px 52px;
+                position: relative;
+                height: 539px;
+        }
+
+span {
+       font-weight: bolder; 
+       color: #063D1E;
+}        
+
+p {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: justify;
+                text-indent: 40px;
+                line-height: 30px;
+        }
+
+nav.buceta {
+        background-color: #063d1e;
+        color: #83E1AD;
+        margin: 0px;
+                        
+        }
+
+.cu {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 92px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        
+}
+
+.buceta {
+                color: #83E1AD;
+                font-weight: bolder;
+                text-shadow: none;
+                margin-left: 8px;
+                text-align: left;
+                text-decoration: none;
+                padding-left: 18px;
+        }
+
+.caralho {
+        font-family: 'droid', Arial, Helvetica, sans-serif;
+        color: #063d1e;
+        text-align: left;
+        font-size: 28px;
+        padding-left: 13px;
+        font-weight: lighter;
+        padding-top: 30px;
+
+        }
+
+.lixo { 
+        display: -webkit-box;
+        background-color: unset;
+text-align: center;
+
+}
+
+.grelo {
+        font-family: 'droid', Arial, Helvetica, sans-serif;
+        color: #1A5C37;
+        text-align: left;
+        font-size: 20px;
+        padding-left: 13px;
+        font-weight: lighter;
+        background-image: linear-gradient(to right, #c7c6c6,#f0ebeb, #ffffff);
+        }
+
+.miséria {
+        text-align: center;
+        background-color: white;
+        height: 200px;
+        }
+
+.inline { 
+        color: #063d1e;
+      background-color: #c7c6c6;
+
+}        
+a:visited {
+               color: red;
+        }
+
+a:hover {
+                   color: #063d1e;
+                   background-color: #59c589;
+                   border-radius: 4px;
+                   padding: 10px;
+                   text-emphasis-style:inherit;
+        }
+
+
+
+
+
+
+
+.cab { 
+        font-family: 'abertura';
+        color: #FFFFFF;
+        }
+
+.principal {
+font-family: 'abertura', Arial, Helvetica, sans-serif;
+color: white;
+font-style: normal;
+font-weight: normal ;
+font-size: 48px;
+text-align: center;
+        }
+
+
+.puta {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #1a5c37;
+        color: #ffffff;
+        margin: 0px;
+        text-align: left;
+        padding: 10px;
+        border-radius: 12px 12px 0px 0px;
+        }
+.mijei {
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+ul {
+        background-color: unset;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        }
+
+.doença {
+        text-align: center;
+        background-color: unset;
+        height: 250px;
+        width: 100%;
+        }
+
+aside { 
+        margin-top: 10px;
+        background-color: #83e1ad;
+        border-radius: 12px;
+        padding-bottom: 10px;
+        }
+
+footer {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13.3px;
+        background-color: #063d1e;
+        color: #ffffff;
+        text-align: center;
+        padding: 5px;
+        }

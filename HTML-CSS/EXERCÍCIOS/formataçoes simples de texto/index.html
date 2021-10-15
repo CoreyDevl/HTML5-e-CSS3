@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras Formatações</title>
+    <style>
+        mark {
+
+            background-color: lime;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Texto em negrito com semântica</h2>
+    <p>Vamos usar a tag <strong>&lt;strong&gt;</strong></p>
+    <h2>O texto deitadinho <em>"itálico"</em> </h2>
+    <p>O texto pra ficar em itálico usamos a tag &lt;em&gt; e o resultado fica <em>assim</em></p>
+    <h2>Códigos-fonte/Pré- formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code>é escrito em linguagem Javascript.</p>
+    <pre><code>num = int(imput('Digite um número))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')    
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do Programa')    
+    </code></pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo meu: <q>O computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+    <blockquote cite:="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+    A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML nesse capítulo descrevem os blocos de texto
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hiper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Eu estou adorando!</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em html.</bdo></p>
+    <h2>Texto Marcado!</h2>
+    <p>podemos criar também um texto marcado usando a tag &lt;mark&gt; e o texto vai aparecer <mark style="background-color: chocolate;">marcado</mark>
+    . <br>
+    Acontece que, a tag &lt;mark&gt; pode ser acrescida de detalhe da cor do marcador e pra isso vamos acrescentar algumas informações na tag, que sugere a complementação automaticamente, resultando na tag: 
+    &lt;mark style="cor" &gt;
+      - sendo esta última uma marcação já com interação em CSS.   </p>
+    <h2><big>Texto grande</big> / <small>Texto PEQUENO</small></h2>
+    <p>Existe uma questão acerca da tag &lt;big&gt;, que deixa de ser importante uma vez que seu efeito é meramente visual, feito portanto no <strong>CSS3</strong>. Contudo, é no mínimo curioso o fato de que sua tag oposta: a tag &lt;small&gt; seja estimulada e atualizada. Minha conclusão pessoal é que a solução para ambos os casos seja mesmo o uso das <strong>CSS</strong>.</p>
+    <h2>Texto Deletado</h2>
+    <p> Para marcarmos um texto como <del>excluído</del> usaremos a tag &lt;del&gt;. </p>
+    <h2>Texto Inserido</h2>
+    <p>Quando queremos indicar que um texto é <ins>inserido</ins>, ou seja, que foi inserido depois, usamos a tag <abbr title="insert"> &lt;ins&gt;</abbr>.
+    Essa função é a antiga tag <abbr title="underline"> &lt;u&gt;</abbr>.</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Esta funcão irá fazer com que o texto envolvido fique minimizado no lado de cima de seu caractere. Muito comum em textos numéricos. <br>Exemplo: 11<sup>23</sup>
+
+    </p>
+    <h2>Texto subscrito</h2>
+    <p>Esta funcão irá fazer com que o texto envolvido fique minimizado no lado de baixo de seu caractere. Muito comum em textos sobre química. <br>Exemplo: 11<sub>23</sub>
+        
+</body>
+</html>

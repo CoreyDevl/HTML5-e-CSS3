@@ -1,0 +1,75 @@
+ESQUEMA DE CORES
+
+--cor0: #ebe5c5;   (MAIS CLARO - BACKGROUND COLOR)
+--cor1: #83e1ad;   (BACKGROUND DA SECTION)
+--cor2: #3ddc84;   (NAO ASIGNADO)
+--cor3: #2fa866;
+--cor4: #1a5c37;
+--cor5: #063d1e;   (BARRAS DE TITULOS)
+
+FORMATO DO NAV
+1008X38
+
+ESQUEMA DE FONTE
+
+fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+fonte-destaque: 'Bebas Neue', cursive;
+fonte-android: 'Android', cursive;
+
+
+[h1 do header]
+
+bebas neue (book)
+48px 40px 0px #FFFFFF
+
+[texto header]
+arial (regular)
+19px 16px 0px #FFFFFF
+
+[links no header]
+arial (bold)
+16px 13.3px 0px #83E1AD
+
+[main]
+[h1]
+Droid
+28px 24px  0px #063D1E
+
+[p]
+arial (regular)
+16px 32px 0px #000000
+
+[h2]
+droid
+20px 17.3px opx #1A5C37 
+
+[H3][section]
+arial
+18px 15.6px 0px #FFFFFF
+
+[P] 
+arial (regular)
+16px 32px 0px #000000
+
+[LISTA]
+arial (regular)
+16px 13.3px 0px #000000
+
+[p]
+arial (regular)
+16px 32px 0px #000000
+[fim da section]
+
+[footer]
+arial (regular)
+16px 10.7px 0px #000000
+
+o texto curso em video muda ... faremos uma tag span>
+e Cruso em video vai ter 
+
+arial (regular)
+16px 32px 0px #83E1AD
+
+
+
+

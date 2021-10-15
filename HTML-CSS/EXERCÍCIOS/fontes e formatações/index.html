@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cores e fontes em CSS3</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
+ 
+<style>
+    div {
+display: inline-block;
+background: springgreen;
+border: 3px black;
+text-align: center;
+height: 200px;
+width: 200px;
+}
+div:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+a {
+ color: blue;
+ text-decoration: none;
+}
+
+a:visited {
+color: red;
+}
+a:hover {
+    color: black;
+    font-size: 1.6em;
+    text-decoration:underline;
+}
+a::before {
+    text ;
+}
+a::after {
+    content: 'SSuPA MEU PAU';
+    text-decoration: none;
+    text-align: unset;
+    color: turquoise;
+}
+</style>
+</head>
+<body>
+        <main>
+            <abbr title="SEU CU É MEU">
+                <div id="a">01</div>
+            </abbr>
+            <div id="b">02</div>
+            <div id="c">03</div>
+            <ul>
+                <li><a href="https://www.google.com.br/">faceburger</a></li>
+                <li><a href="https://www.google.com.br/">youtóba</a></li>
+                <li><a href="https://www.google.com.br/">calaboca seu porco</a></li>
+            </ul>
+            <hr>
+                <a href="pagima002.html" target="_self" rel="next">EXERCICIOS DE BOX</a>
+
+            <h1 id="a">Exemplo de Fontes</h1>
+                <h2>O lixo é BOM</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus fugit delectus tenetur eligendi perferendis fugiat repellendus alias. Repellat dolor deserunt iste voluptatum hic quis at libero accusamus facilis harum. Fugit?</p>
+            <h2 class="babagaba">O lixo não é BOM</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis enim provident esse repellat ab accusamus illo? Quae ab optio <span class="babagaba">provident</span>, fuga unde nulla perferendis, dolores quidem nihil eos rerum consectetur.</p>
+            <h1>O que é LIXO?</h1>
+            <h2>Podemos comer Lixo!</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores sequi libero. Voluptas a reprehenderit recusandae quos pariatur nisi perferendis quo mollitia illum. Nostrum minima fuga explicabo enim vitae iusto!</p>
+        </main>
+</body>
+</html>
